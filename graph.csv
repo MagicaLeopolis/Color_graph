@@ -1,0 +1,18 @@
+a,b
+a,e
+b,d
+b,c
+c,e
+c,d
+d,e
+
+01001
+10110
+01011
+01101
+10110
+[[0,1,0,0.1],[]]
+for el in global_lst:
+    for i in el:
+        if i == 1:
+            
