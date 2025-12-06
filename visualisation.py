@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import networkx as nx
 
-edge_color1= {'1': 'red', '2': 'green', '3': 'blue', '4':'red', '5': 'green'} #result of "" function
-nodes = {'1' : ['2', '5'], '2': ['3', '1'], '3': ['4', '2'], '4':['5', '3'], '5':['1', '4']} #result of "" function
+edge_color1= {'1': 'red', '2': 'green', '3': 'blue', '4':'red', '5': 'green'} #result of "color_start" or 'backtrack_right_color' function
+nodes = {'1' : ['2', '5'], '2': ['3', '1'], '3': ['4', '2'], '4':['5', '3'], '5':['1', '4']} #result of "read_file" function
 
 
 G = nx.from_dict_of_lists(nodes) 
