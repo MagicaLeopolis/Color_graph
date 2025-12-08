@@ -1,0 +1,12 @@
+a -> red
+b -> green
+c -> blue
+e -> green
+f -> blue
+h -> green
+i -> blue
+g -> red
+j -> red
+d -> red
+k -> green
+l -> blue
