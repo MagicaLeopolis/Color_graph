@@ -1,6 +1,6 @@
 import argparse
 
-from create_dict_right_color import create_dict_right_color
+from create_dict_right_color_final import create_dict_right_color
 from read_file import read_file, write_matrix
 from Our_main_cod_without_color import backtrack_color
 from visualisation import visualize_adjacency_list_graph
