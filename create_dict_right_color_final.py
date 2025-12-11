@@ -21,7 +21,8 @@ def create_dict_right_color(dic: dict, matrix: list):
                     print('Цей граф не можна розмалювати')
                     return None
     return dic
-print(create_dict_right_color({0 : 'green', 1 : 'green', 2 : 'green', 3 : 'green', 4: 'red'},[[0, 1, 1, 1, 1], [1, 0, 1, 1, 1], [1, 1, 0, 1, 1], [1, 1, 1, 0, 1], [1, 1, 1, 1, 0]]))
+if __name__ == '__main__':
+    print(create_dict_right_color({0 : 'green', 1 : 'green', 2 : 'green', 3 : 'green', 4: 'red'},[[0, 1, 1, 1, 1], [1, 0, 1, 1, 1], [1, 1, 0, 1, 1], [1, 1, 1, 0, 1], [1, 1, 1, 1, 0]]))
     # new_dict = {}
     # visited = []
 
