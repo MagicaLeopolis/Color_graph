@@ -29,5 +29,5 @@ def write_matrix(dic):
         for connected in dic[key]:
             i_2 = keys.index(connected)
             matrix[i][i_2] = 1
-    return matrix
+    return matrix,keys
 print(write_matrix({'a': ['b', 'e'], 'b': ['a', 'c'], 'c': ['b', 'd'], 'd': ['c', 'e'], 'e': ['d', 'a']}))
