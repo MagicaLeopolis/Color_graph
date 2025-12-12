@@ -12,7 +12,7 @@ def read_file(file_path):
                 dic[conected_name] = []
             dic[conected_name].append(name)
     return dic
-print(read_file(('big_correct_graph.csv')))
+#print(read_file(('big_correct_graph.csv')))
 
 
 def backtrack_color(start: int, dic: dict, colors: list) -> dict | bool:
