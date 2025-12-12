@@ -14,7 +14,7 @@ def visualize_adjacency_list_graph(nodes_color: dict, edges: dict, filename):
     node_color_list = [color_map[node] for node in G.nodes()]
     num_nodes = G.number_of_nodes()
     node_size = 1000 if num_nodes <= 15 else 300
-    pos = nx.spring_layout(G, k=0.8, iterations=50)
+    pos = nx.spring_layout(G, seed = 42, k=0.8, iterations=50)
 
     plt.figure(figsize=(12, 8))
     nx.draw_networkx(
