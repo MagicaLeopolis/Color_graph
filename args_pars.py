@@ -1,8 +1,8 @@
 '''
 main
-python main.py --file testing3(edges).csv --img my_graph.png
+python args_pars.py --file testing3(edges).csv --img my_graph.png
 or :
-python main.py --file testing3(edges).csv --img my_graph.png --with_colors correct_colors.csv
+python args_pars.py --file testing3(edges).csv --img my_graph.png --with_colors correct_colors.csv
 '''
 
 import argparse
