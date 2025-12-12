@@ -7,7 +7,7 @@ python main.py --file testing3(edges).csv --img my_graph.png --with_colors corre
 
 import argparse
 from visualisation import visualize_adjacency_list_graph
-import Our_main_cod_without_color as f
+import backtracking_without_color as f
 import backtrack_with_colors as extra
 
 
