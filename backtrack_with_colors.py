@@ -12,7 +12,7 @@ def read_file(file_path):
                 dic[conected_name] = []
             dic[conected_name].append(name)
     return dic
-print(read_file(('graph.csv')))
+#print(read_file(('graph.csv')))
 
 
 def color_start(file_path):
@@ -25,7 +25,7 @@ def color_start(file_path):
             if not point in dic:
                 dic[point] = color
     return dic
-print(color_start(('correct_color.csv')))
+#print(color_start(('correct_color.csv')))
 
 def backtrack_color( dic: dict, d: dict, colors: list, correct_colar: dict, start: int = 0) -> dict | bool:
     keys = list(dic.keys())
@@ -71,7 +71,7 @@ def backtrack_color( dic: dict, d: dict, colors: list, correct_colar: dict, star
     return None
 
 
-print(backtrack_color({'a': ['b', 'e'], 'b': ['a', 'd', 'c'], 'e': ['a', 'c', 'd'], 'd': ['b', 'c', 'e'], 'c': ['b', 'e', 'd']}, {'a': 'red', 'b': 'red', 'c': 'blue', 'd': 'green', 'e': 'green'}, ['red', 'green', 'blue'], {}, 0))
+#print(backtrack_color({'a': ['b', 'e'], 'b': ['a', 'd', 'c'], 'e': ['a', 'c', 'd'], 'd': ['b', 'c', 'e'], 'c': ['b', 'e', 'd']}, {'a': 'red', 'b': 'red', 'c': 'blue', 'd': 'green', 'e': 'green'}, ['red', 'green', 'blue'], {}, 0))
 
 
 def write_color_graph(result: dict):
