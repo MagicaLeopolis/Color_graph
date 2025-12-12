@@ -32,13 +32,13 @@
 ***<h2>Користування програмою</h2>***
 ***<h3>Початковий граф - не розфарбований</h3>***
 Для виконання програми введіть у термінал такий код:
-``` python3 main.py --file testing3(edges).csv --img my_graph_result.png ```
+``` python3 main.py --file testing.csv --img my_graph_result.png ```
 
 Перший аргумент - файл з заданими ребрами графа.
 Другий аргумент - файл, у який завантажується зображення (по замовчуванню 'graph.png').
   
 ***<h3>Початковий граф - вже розфарбований</h3>***
-``` python3 main.py --file testing3(edges).csv --img my_graph_corrected.png --with_colors starting_wrong_colors.csv ```\
+``` python3 main.py --file testing.csv --img my_graph_corrected.png --with_colors starting_wrong_colors.csv ```\
 Перший аргумент - файл з заданими ребрами графа.
 Другий аргумент - файл, у який завантажується зображення
 Третій аргумент - файл, у якому задані початкові кольори вершин.
